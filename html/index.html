@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main-container">
+        <h1>Dashboard Tabways</h1>
+      <div id="workspaces"> </div>
+        <h2>Workspaces</h2>
+        <a id="workspace" href="#" style="border: 2px solid green; padding: 2px;">Work</a>
+        <a id="close-all" href="#" style="border: 2px solid orange; padding: 2px;">x - Close all</a>
+      <div class="dashboard" > <!-- when do I use sections? -->
+        <h2>Hello there!</h2>
+        <p>If you let it, this can be a new tab page.</p>
+        <h2>Open tabs</h2>
+        <div id="open-tabs"> </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="/js/dashboard.js"> </script> <!-- was in header before. Moved so JS can detect DOM elements.-->
+  </body>
+
+</html>
